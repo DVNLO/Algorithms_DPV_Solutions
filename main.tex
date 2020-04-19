@@ -25,25 +25,42 @@ The intent of this solution key was originally just to practice. But then I real
 \setcounter{section}{-1}
 \section{Prologue}
 \subsection{}
+%a
 \subsubsection{$f = \theta(g)$}
+%b
 \subsubsection{$f = O(g)$}
+%c
 \subsubsection{$f = \theta(g)$}
 This result was not clear to me immediately, but after seeing that $(log(n))^2 = O(n)$, the result quickly follows. This follows from L'Hopital's rule.  $\lim_{x\to\infty}\frac{(log(n))^2}{n}=\lim_{x\to\infty}\frac{2log(n)}{n}=0$
 I use L'Hopital's rule in later problems as well, but omit the work. 
+%d
 \subsubsection{$f = \theta(g)$}
+%e
 \subsubsection{$f = \theta(g)$}
+%f
 \subsubsection{$f = \theta(g)$}
+%g
 \subsubsection{$f = \Omega(g)$}
+%h
 \subsubsection{$f = \Omega(g)$}
+%i
 \subsubsection{$f = \Omega(g)$}
+%j
 \subsubsection{$f = \Omega(g)$}
 We have $log(n)^{log(n)} \geq \frac{n}{log(n)} \Rightarrow log(n)^{log(n) + 1} \geq n$. Then, applying the log to both sides, we get: $(log(n) + 1)log(log(n)) \geq log(n)$, implying $log(n)log(log(n)) \geq log(n) \Rightarrow log(log(n)) \geq 1$, which is true. 
+%k
 \subsubsection{$f = \Omega(g)$}
+%l
 \subsubsection{$f = \theta(g)$}
-\subsubsection{$f = \Omega(g)$}
+%m
+\subsubsection{$f = O(g)$}
+$n2^n~?~3^n \Longrightarrow n~?~\frac{3^n}{2^n} \Longrightarrow n \ll \frac{3}{2}^n$ for sufficiently large n.
+%n
 \subsubsection{$f = \theta(g)$}
+%0
 \subsubsection{$f = \Omega(g)$}
 The critical realization is that $log(n!)$ grows at least as fast as $nlog(n)$. This is derived from the fact that $n! > (n/2)^{n/2}$. After that, the proof then follows quickly. 
+%p
 \subsubsection{$f = O(g)$}
 Justification(credit: Nicholas John Riasanovsky): 
 $$f(n)=(log(n))^{(log(n))}$$
@@ -53,6 +70,7 @@ $$=n^{log(log(n))}$$
 $$g(n)=2^{log(n)log(n)}$$
 $$=n^{log(n)}$$
 $$f=O(g)$$
+%q
 \subsubsection{$f = O(g)$}
 \subsection{}
 \subsubsection{}An infinite geometric series with $r < 1$ will converge to a constant. A finite geometric series with $r < 1$ must then also converge to a constant. 
